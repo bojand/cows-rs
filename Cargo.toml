@@ -1,0 +1,22 @@
+[package]
+name = "cows"
+version = "0.1.0"
+authors = ["Bojan <dbojan@gmail.com>"]
+edition = "2018"
+description = "Get a random ASCII cow 🐮"
+license = "MIT"
+keywords = ["ascii", "cows"]
+readme = "README.md"
+homepage = "https://github.com/bojand/cows-rs"
+repository = "https://github.com/bojand/cows-rs"
+documentation = "https://github.com/bojand/cows-rs"
+
+[lib]
+name = "cows"
+
+[[bin]]
+name = "cows"
+path = "src/bin/main.rs"
+
+[dependencies]
+rand = "0.6"
