@@ -11,8 +11,8 @@ mod cows;
 
 pub fn random() -> String {
     let mut rng = rand::thread_rng();
-    let (cow, desc) = cows::COWS[rng.gen_range(0, cows::COWS.len())];
-    return [cow, desc].join("\n");
+    let cow = cows::COWS[rng.gen_range(0, cows::COWS.len())];
+    return String::from(cow);
 }
 
 #[cfg(test)]

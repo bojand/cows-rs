@@ -1,7 +1,5 @@
 # cows
 
-> ## Not Done Yet
-
 > 400+ ASCII 🐮s
 
 Get a list of cows or a random cow. The `Rust` version. Original [JavaScript Cows](https://github.com/sindresorhus/cows).
@@ -21,6 +19,21 @@ extern crate cows;
 fn main() {
     println!("{}", cows::random());
 }
+```
+
+## CLI
+
+```sh
+$ cows
+                   (oooo)
+                 oo( -0 )oo
+     / ------------  \/
+    /  |          |
+   /   |  ----\_/ |
+> <    |||      |||
+       |||      |||
+        ~~       ~~
+  Wendy Wellesley Cow-
 ```
 
 ## Examples
